@@ -1,6 +1,8 @@
 # install some brew dependencies (compilers and the like)
-## `brew install gfortran llvm openblas libomp uv`
-## `brew link openblas --force`
+```bash
+brew install gfortran llvm openblas libomp uv
+brew link openblas --force
+```
 # create a python virtual environment
 ```bash
 uv venv --python 3.12 ~/.virtualenvs/aider-venv
