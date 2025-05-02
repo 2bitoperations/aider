@@ -1,5 +1,4 @@
 # install some brew dependencies (compilers and the like)
-```bash
 ## `brew install gfortran llvm openblas libomp uv`
 ## `brew link openblas --force`
 # create a python virtual environment
