@@ -16,5 +16,4 @@ aider/_version.py
 .#*
 .gitattributes
 tmp.benchmarks/
-.idea/**
-*.iml
+.docker_bash_history

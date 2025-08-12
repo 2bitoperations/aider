@@ -264,15 +264,15 @@ tr:hover { background-color: #f5f5f5; }
 </style>
 <table>
 <tr><th>Model Name</th><th class='right'>Total Tokens</th><th class='right'>Percent</th></tr>
-<tr><td>gemini/gemini-2.5-pro-exp-03-25</td><td class='right'>1,637,700</td><td class='right'>83.1%</td></tr>
-<tr><td>o3</td><td class='right'>186,953</td><td class='right'>9.5%</td></tr>
-<tr><td>openrouter/anthropic/claude-3.7-sonnet</td><td class='right'>76,285</td><td class='right'>3.9%</td></tr>
-<tr><td>gemini/gemini-2.5-flash-preview-04-17</td><td class='right'>18,645</td><td class='right'>0.9%</td></tr>
-<tr><td>gemini/gemini-2.5-pro-preview-03-25</td><td class='right'>16,524</td><td class='right'>0.8%</td></tr>
-<tr><td>o4-mini</td><td class='right'>16,499</td><td class='right'>0.8%</td></tr>
-<tr><td>xai/grok-3-fast-beta</td><td class='right'>10,288</td><td class='right'>0.5%</td></tr>
-<tr><td>None</td><td class='right'>8,001</td><td class='right'>0.4%</td></tr>
-<tr><td>gemini/REDACTED</td><td class='right'>606</td><td class='right'>0.0%</td></tr>
+<tr><td>None</td><td class='right'>168,988</td><td class='right'>56.8%</td></tr>
+<tr><td>gemini/gemini-2.5-pro</td><td class='right'>59,777</td><td class='right'>20.1%</td></tr>
+<tr><td>gpt-5</td><td class='right'>40,562</td><td class='right'>13.6%</td></tr>
+<tr><td>openrouter/moonshotai/kimi-k2</td><td class='right'>13,689</td><td class='right'>4.6%</td></tr>
+<tr><td>o3</td><td class='right'>7,999</td><td class='right'>2.7%</td></tr>
+<tr><td>openrouter/REDACTED</td><td class='right'>2,342</td><td class='right'>0.8%</td></tr>
+<tr><td>openai/REDACTED</td><td class='right'>1,970</td><td class='right'>0.7%</td></tr>
+<tr><td>o3-pro</td><td class='right'>1,557</td><td class='right'>0.5%</td></tr>
+<tr><td>claude-opus-4-20250514</td><td class='right'>502</td><td class='right'>0.2%</td></tr>
 </table>
 
 {: .note :}
@@ -375,6 +375,10 @@ Aider is
 [open source and available on GitHub](https://github.com/Aider-AI/aider)
 under an 
 [Apache 2.0 license](https://github.com/Aider-AI/aider/blob/main/LICENSE.txt).
+
+## Can I Script Aider?
+
+Yes. You can script aider via the command line or python. See more from here: [Scripting aider](https://aider.chat/docs/scripting.html)
 
 
 <div style="height:80vh"></div>
