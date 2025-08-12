@@ -10,10 +10,7 @@ source ~/.virtualenvs/aider-venv/bin/activate
 ```
 # install litellm, aider
 ```bash
-export CC=/opt/homebrew/opt/llvm/bin/clang
-export CXX=/opt/homebrew/opt/llvm/bin/clang++
 uv pip install git+https://github.com/2bitoperations/aider.git@add_copilot
-uv pip install git+https://github.com/2bitoperations/litellm.git@litellm_dev_03_05_2025_contributor_prs
 ```
 ### NOTE: If you get an error calling out `include type_traits`, follow instructions here to blow away and reinstall xcode command line tools: https://github.com/numpy/numpy/issues/27863#issuecomment-2507195757
 # run with
