@@ -463,7 +463,7 @@ tqdm==4.67.1
     #   google-generativeai
     #   huggingface-hub
     #   openai
-tree-sitter==0.25.1
+tree-sitter==0.24.0
     # via
     #   -c requirements/common-constraints.txt
     #   tree-sitter-language-pack
