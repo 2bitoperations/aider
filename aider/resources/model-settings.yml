@@ -2061,3 +2061,12 @@
       Editor-Plugin-Version: copilot/1.155.0
       Editor-Version: vscode/1.85.1
 
+
+- name: github_copilot/gpt-5
+  # edit_format: diff
+  extra_params:
+    max_tokens: 80000
+    extra_headers:
+      User-Agent: GithubCopilot/1.155.0
+      Editor-Plugin-Version: copilot/1.155.0
+      Editor-Version: vscode/1.85.1
